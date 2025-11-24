@@ -2,13 +2,36 @@
 
 ## Introduction
 
-TODO: Add brief introduction to the apps goal.
+The goal of the Campus 360 app is to provide students, visitors, and staff with a seamless and intuitive indoor–outdoor navigation experience within the university campus. The app aims to centralize all essential campus information—buildings, rooms, services, facilities, and pathways—into one unified platform. By combining interactive maps, floor-level navigation, and contextual details about different locations, Campus 360 helps users quickly find their way, explore the campus, and access relevant information without confusion. Ultimately, the app improves campus accessibility, reduces navigation time, and enhances the overall user experience for new and existing members of the university community.
 
 TODO: Add one or more screenshots of the app, when you finalized the UI.
 
 ## Architecture Overview
 
 TODO: Add simple diagram that explains the architecture.
+
+## User Persona
+Campus360 is primarily designed for individuals who frequently navigate the 
+BTH campus and still encounter minor navigation issues that slow them down. 
+One common user type is someone like Maria, a 22-year-old student in her 
+second semester. Even though she already knows the main buildings, she told 
+us that she still struggles when her classes are scheduled in rooms she hasn't 
+visited before. For example, some rooms are located deep inside long corridors, 
+and sometimes two different wings look almost identical until you walk all the 
+way in. She said she often checks the floor plans at the floor entrance but still 
+gets confused because they only show a rough layout and not the exact route. 
+For students like Maria, Campus360 would help by showing a clear sequence of 
+steps, so she doesn't waste time searching from corridor to corridor.   
+
+Another type of user is Rishi, a 23-year-old Master student who moves 
+between various rooms for research meetings and lab work. When I spoke with 
+him, he said the challenge isn’t the main hallways, but the smaller rooms 
+tucked away behind labs or in corners that aren’t easy to spot. Since he uses 
+many different rooms throughout the semester, it’s hard for him to remember 
+all the locations. He said a tool like Campus360 would save him time, especially 
+when he has back-to-back meetings and needs to quickly check the fastest way 
+to reach a less common room. For him, the usefulness comes from accuracy 
+rather than memorizing the layout. 
 
 ## User Stories
 
