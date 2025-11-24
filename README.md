@@ -17,11 +17,13 @@ TODO: Add simple diagram that explains the architecture.
 | US1   | As a user,              | I want to search for a lecture room by name or number,             | so that I can arrive on time without confusion.  | TODO                    |
 | US2   | As a user,              | I want to filter locations based on their type,                    | so that I have an overview of all meeting rooms. | TODO                    |
 | US3   | As a user,              | I want visual navigation instructions for a location,              | so that I know in which direction I have to go.  | TODO                    |
-| US4   | As a user,              | I want to explore points of interest like the library or cafeteria | so that I can experience campus life.            | TODO                    |
-| US5   | TODO                    | TODO                                                               | TODO                                             | TODO                    |
-| US6   | TODO                    | TODO                                                               | TODO                                             | TODO                    |
-| US7   | TODO                    | TODO                                                               | TODO                                             | TODO                    |
-| US8   | TODO                    | TODO                                                               | TODO                                             | TODO                    |
+| US4   | As a user,              | I want to explore points of interest like the library or cafeteria,| so that I can experience campus life.            | TODO                    |
+| US5   | As a user,              |I want to scan QR codes at entrances or doors,                      |so that I can know my exact current location.     | TODO                    |
+| US6   | As a user,              |I want to preview all steps before I start walking,                 |so that I understand the full route in advance.   | TODO                    |
+| US7   | As a user,              |I want a cancel button,                                             |so that I can stop the directions if I change my mind.| TODO                |
+| US8   | As a user,              |I want to see the estimated time required to reach the destination, |so that I know whether I will arrive on time          | TODO                |
+| US9   | As a user,              |I want the app to work offline,                                     |so that I can get directions without network issues.  | TODO                |
+
 
 ### Development Status
 
