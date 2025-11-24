@@ -49,6 +49,70 @@ Use
 
 [ ] US8
 
+## App Context and Data
+
+### Context Diagram
+
+<img width="541" height="441" alt="Campus360_context_diagram" src="https://github.com/user-attachments/assets/69cfb3a9-c4d3-4d5c-a61d-1a975db7eee3" />
+
+### What is the Targeted Hardware?
+
+Platform: Android
+
+OS version: Android 10 + 
+
+Screen Size: 6.1-7 inches 
+
+Sensors: None 
+
+Connectivity: None (Not for core functionality)
+
+### What data is being collected from the user?
+
+Search queries 
+
+Selected locations 
+
+Saved locations 
+
+Recently viewed locations 
+
+No GPS data 
+
+No user's personal information
+
+### What are the sources of the data
+
+Manually created buildings, floors, rooms... JSON files. 
+
+Static images for floor maps 
+
+User inputs
+
+### Data Lifecycle
+
+#### Session Data 
+
+Current search 
+
+Temporary navigation path 
+
+Floor map view state 
+
+#### Stored Locally 
+
+Saved rooms 
+
+Recently Viewed rooms 
+
+Cached floor map images 
+
+#### Stored on Server (Initially, this will be stored locally) 
+
+Room Data
+
+Building Data, …
+
 ## How to Use
 
 ### Build
