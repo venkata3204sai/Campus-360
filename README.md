@@ -76,7 +76,7 @@ Use
 
 ### Context Diagram
 
-<img width="541" height="441" alt="Campus360_context_diagram" src="https://github.com/user-attachments/assets/69cfb3a9-c4d3-4d5c-a61d-1a975db7eee3" />
+<img width="751" height="141" alt="context_diagram_1234" src="https://github.com/user-attachments/assets/ace7ad2a-a7cd-4641-bcd2-3e2439dc514b" />
 
 ### What is the Targeted Hardware?
 
