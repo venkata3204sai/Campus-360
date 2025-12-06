@@ -4,34 +4,41 @@
 
 The goal of the Campus 360 app is to provide students, visitors, and staff with a seamless and intuitive indoor–outdoor navigation experience within the university campus. The app aims to centralize all essential campus information—buildings, rooms, services, facilities, and pathways—into one unified platform. By combining interactive maps, floor-level navigation, and contextual details about different locations, Campus 360 helps users quickly find their way, explore the campus, and access relevant information without confusion. Ultimately, the app improves campus accessibility, reduces navigation time, and enhances the overall user experience for new and existing members of the university community.
 
-TODO: Add one or more screenshots of the app, when you finalized the UI.
+## Targeted Users
+Campus360 is designed for individuals who frequently navigate the BTH campus but still face
+minor difficulties locating specific rooms or facilities. Although many students and staff
+members are familiar with the main buildings, they often experience confusion when they
+must find rooms located deep inside long corridors or in sections of the campus that look
+very similar. The existing floor plans at building entrances provide only a rough overview and
+do not help users understand the exact route they need to take.
 
-## Architecture Overview
+The app, therefore, targets students, staff, and visitors who want clearer, more reliable
+indoor navigation support. Whether they are attending a lecture, moving between labs for
+research, or locating campus facilities such as cafeterias or study areas, Campus360 offers
+simple text-based guidance that helps users move efficiently within the campus.
 
-TODO: Add simple diagram that explains the architecture.
+## User Personas
+Persona 1: Maria – The New Student
+Maria is a 22-year-old student in her second semester at BTH. Although she knows the main
+buildings, she often struggles to find rooms she has never visited before, especially when
+they are located far inside long corridors. She mentioned that two different wings
+sometimes look nearly identical, which makes it easy to walk in the wrong direction. Even
+when she uses the floor plans near the entrances, she still finds them confusing because
+they only give a general layout without showing the precise route.
+Campus360 helps Maria by giving her clear, ordered steps that guide her directly to her
+room, allowing her to navigate confidently without wasting time.
 
-## User Persona
-Campus360 is primarily designed for individuals who frequently navigate the 
-BTH campus and still encounter minor navigation issues that slow them down. 
-One common user type is someone like Maria, a 22-year-old student in her 
-second semester. Even though she already knows the main buildings, she told 
-us that she still struggles when her classes are scheduled in rooms she hasn't 
-visited before. For example, some rooms are located deep inside long corridors, 
-and sometimes two different wings look almost identical until you walk all the 
-way in. She said she often checks the floor plans at the floor entrance but still 
-gets confused because they only show a rough layout and not the exact route. 
-For students like Maria, Campus360 would help by showing a clear sequence of 
-steps, so she doesn't waste time searching from corridor to corridor.   
-
-Another type of user is Rishi, a 23-year-old Master student who moves 
-between various rooms for research meetings and lab work. When I spoke with 
-him, he said the challenge isn’t the main hallways, but the smaller rooms 
-tucked away behind labs or in corners that aren’t easy to spot. Since he uses 
-many different rooms throughout the semester, it’s hard for him to remember 
-all the locations. He said a tool like Campus360 would save him time, especially 
-when he has back-to-back meetings and needs to quickly check the fastest way 
-to reach a less common room. For him, the usefulness comes from accuracy 
-rather than memorizing the layout. 
+Persona 2: Dr Sahadev – The Professor
+Dr Sahadev is a 45-year-old professor who frequently moves between different classrooms,
+meeting rooms, and labs to teach, supervise thesis students, and attend departmental
+discussions. Although he has been at BTH for several years, he still finds it challenging to
+remember the exact location of certain rooms that he visits less often, especially those
+situated deep inside long corridors or in areas with a similar layout. On days when his
+schedule is tight, even a small delay caused by searching for the right room can disrupt his
+teaching or meeting plans.
+Campus360 supports Dr Sahadev by providing quick and accurate text-based indoor
+directions, allowing him to easily find rooms he does not visit regularly and ensuring he can
+move efficiently between locations throughout his busy day.
 
 ## User Stories
 
