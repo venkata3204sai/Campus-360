@@ -194,5 +194,4 @@ Run on a Physical Device:
    Or press Run in Android Studio and choose your device.
 
 ## License
-
-TODO: Add license and copyright notice. If you are not sure which license you should chose, have a look at [Choose a License](https://choosealicense.com).
+This project is licensed under the MIT License. See the full license text in the [LICENSE](LICENSE) file.
