@@ -147,7 +147,26 @@ Building Data, …
 
 ### Build
 
-TODO: Explain how the whole app can be build as an APK.
+To generate an APK for the Campus360 app:
+1. Ensure you have the required tools installed:
+   * Android Studio
+   * Android SDK 33 or higher
+2. Clone the repository:
+   ```sh
+   git clone https://github.com/bth-dipt-pa1469/h25-team07-campus360
+   cd Campus360
+   ```
+3. Build the APK using Gradle:
+   ```sh
+   ./gradlew assembleRelease
+   ```
+4. After the build completes, the release APK will be available at:
+   ```sh
+   app/build/outputs/apk/release/app-release.apk
+   ```
+You can also build the APK directly from Android Studio using:
+
+Build → Build Bundle(s) / APK(s) → Build APK(s).
 
 ### Test
 
@@ -157,7 +176,22 @@ TODO: Explain how the whole app can be build as an APK.
 
 ### Run
 
-TODO: Explain how to run the app on device or emulator.
+You can run the Campus360 app either on an Android emulator or a physical device.
+
+Run on an Emulator:
+1. Open the project in Android Studio.
+2. Create or select an existing Android Virtual Device.
+3. Press Run to install and launch the app on the emulator.
+
+Run on a Physical Device:
+1. Enable Developer Options on your device.
+2. Turn on USB Debugging.
+3. Connect the device to your PC via USB.
+4. Install the APK manually:
+   ```sh
+   adb install app-release.apk
+   ```
+   Or press Run in Android Studio and choose your device.
 
 ## License
 
