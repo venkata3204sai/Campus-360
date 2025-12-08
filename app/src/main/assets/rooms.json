@@ -383,6 +383,246 @@
       "floor": 2,
       "type": "office",
       "description": "Office space used for industry collaboration and academic partnership with Ericsson."
+    },
+    {
+      "id": "C235",
+      "name": "C235",
+      "building": "C",
+      "floor": 2,
+      "type": "group room",
+      "description": ""
+    },
+    {
+      "id": "C236",
+      "name": "C236",
+      "building": "C",
+      "floor": 2,
+      "type": "group room",
+      "description": ""
+    },
+    {
+      "id": "C237",
+      "name": "C237",
+      "building": "C",
+      "floor": 2,
+      "type": "group room",
+      "description": ""
+    },
+    {
+      "id": "C243",
+      "name": "C243",
+      "building": "C",
+      "floor": 2,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "C244",
+      "name": "C244",
+      "building": "C",
+      "floor": 2,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "C245",
+      "name": "C245",
+      "building": "C",
+      "floor": 2,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "C216",
+      "name": "C216",
+      "building": "C",
+      "floor": 2,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C313A",
+      "name": "C313A",
+      "building": "C",
+      "floor": 3,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C341",
+      "name": "C341",
+      "building": "C",
+      "floor": 3,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C342",
+      "name": "C342",
+      "building": "C",
+      "floor": 3,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C343",
+      "name": "C343",
+      "building": "C",
+      "floor": 3,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C334",
+      "name": "C334",
+      "building": "C",
+      "floor": 3,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C335",
+      "name": "C335",
+      "building": "C",
+      "floor": 3,
+      "type": "conference hall",
+      "description": "Medium-sized conference hall for departmental meetings, guest lectures, and academic events."
+    },
+    {
+      "id": "C336",
+      "name": "C336",
+      "building": "C",
+      "floor": 3,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C413A",
+      "name": "C413A",
+      "building": "C",
+      "floor": 4,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C433",
+      "name": "C433",
+      "building": "C",
+      "floor": 4,
+      "type": "conferece hall",
+      "description": "Large conference room used for faculty meetings, project presentations, and seminars."
+    },
+    {
+      "id": "C434",
+      "name": "C434",
+      "building": "C",
+      "floor": 4,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C435",
+      "name": "C435",
+      "building": "C",
+      "floor": 4,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C442",
+      "name": "C442",
+      "building": "C",
+      "floor": 4,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C444",
+      "name": "C444",
+      "building": "C",
+      "floor": 4,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C446",
+      "name": "C446",
+      "building": "C",
+      "floor": 4,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C513A",
+      "name": "C513A",
+      "building": "C",
+      "floor": 5,
+      "type": "conferece hall",
+      "description": "Spacious conference hall for seminars, departmental meetings, and research presentations."
+    },
+    {
+      "id": "C533",
+      "name": "C533",
+      "building": "C",
+      "floor": 5,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C534",
+      "name": "C534",
+      "building": "C",
+      "floor": 5,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C535",
+      "name": "C535",
+      "building": "C",
+      "floor": 5,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C536",
+      "name": "C536",
+      "building": "C",
+      "floor": 5,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C537",
+      "name": "C537",
+      "building": "C",
+      "floor": 5,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C538",
+      "name": "C538",
+      "building": "C",
+      "floor": 5,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C539",
+      "name": "C539",
+      "building": "C",
+      "floor": 5,
+      "type": "Classroom",
+      "description": ""
+    },
+    {
+      "id": "C540",
+      "name": "C540",
+      "building": "C",
+      "floor": 5,
+      "type": "Classroom",
+      "description": ""
     }
   ]
 }
