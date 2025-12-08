@@ -1,0 +1,388 @@
+{
+  "rooms" : [
+    {
+      "id": "G210",
+      "name": "G210",
+      "building": "G",
+      "floor": 2,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G211",
+      "name": "G211",
+      "building": "G",
+      "floor": 2,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G212A",
+      "name": "G212A",
+      "building": "G",
+      "floor": 2,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G212C",
+      "name": "G212C",
+      "building": "G",
+      "floor": 2,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G213C",
+      "name": "G213C",
+      "building": "G",
+      "floor": 2,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G214C",
+      "name": "G214C",
+      "building": "G",
+      "floor": 2,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G2MKLAB",
+      "name": "Maskinlabb",
+      "building": "G",
+      "floor": 2,
+      "type": "lab",
+      "description": "A specialized laboratory equipped with mechanical tools, testing equipment, and machinery for hands-on experiments in mechanics, manufacturing, and engineering design"
+    },
+    {
+      "id": "G241",
+      "name": "G241",
+      "building": "G",
+      "floor": 2,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G310A",
+      "name": "G310A",
+      "building": "G",
+      "floor": 3,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G310B",
+      "name": "G310B",
+      "building": "G",
+      "floor": 3,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G311",
+      "name": "G311",
+      "building": "G",
+      "floor": 3,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G312",
+      "name": "G312",
+      "building": "G",
+      "floor": 3,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G313",
+      "name": "G313",
+      "building": "G",
+      "floor": 3,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G340",
+      "name": "G340",
+      "building": "G",
+      "floor": 3,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G410",
+      "name": "G410",
+      "building": "G",
+      "floor": 4,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G411",
+      "name": "G411",
+      "building": "G",
+      "floor": 4,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G412",
+      "name": "G412",
+      "building": "G",
+      "floor": 4,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G414",
+      "name": "G414",
+      "building": "G",
+      "floor": 4,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G415",
+      "name": "G415",
+      "building": "G",
+      "floor": 4,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G404",
+      "name": "G404",
+      "building": "G",
+      "floor": 4,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G510A",
+      "name": "G510A",
+      "building": "G",
+      "floor": 5,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G510B",
+      "name": "G510B",
+      "building": "G",
+      "floor": 5,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G511A",
+      "name": "G511A",
+      "building": "G",
+      "floor": 5,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G512",
+      "name": "G512",
+      "building": "G",
+      "floor": 5,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G513",
+      "name": "G513",
+      "building": "G",
+      "floor": 5,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G514",
+      "name": "G514",
+      "building": "G",
+      "floor": 5,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "G541",
+      "name": "G541",
+      "building": "G",
+      "floor": 5,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "H320",
+      "name": "H320",
+      "building": "H",
+      "floor": 3,
+      "type": "lab",
+      "description": "A well-equipped computer laboratory used for programming, data analysis, and software development courses."
+    },
+    {
+      "id": "H321",
+      "name": "H321",
+      "building": "H",
+      "floor": 3,
+      "type": "lab",
+      "description": "Dedicated lab for hands-on sessions in computer science and networking experiments."
+    },
+    {
+      "id": "H322",
+      "name": "H322",
+      "building": "H",
+      "floor": 3,
+      "type": "lab",
+      "description": "Used for software engineering and AI-related projects, with modern systems and internet access."
+    },
+    {
+      "id": "H326",
+      "name": "H326",
+      "building": "H",
+      "floor": 3,
+      "type": "group room",
+      "description": "Small study room designed for group discussions, teamwork, and project collaboration."
+    },
+    {
+      "id": "H327",
+      "name": "H327",
+      "building": "H",
+      "floor": 3,
+      "type": "group room",
+      "description": "Quiet workspace for students to meet and work on assignments or presentations."
+    },
+    {
+      "id": "H328",
+      "name": "H328",
+      "building": "H",
+      "floor": 3,
+      "type": "group room",
+      "description": "Collaborative area suitable for brainstorming, meetings, and small group studies."
+    },
+    {
+      "id": "H329",
+      "name": "H329",
+      "building": "H",
+      "floor": 3,
+      "type": "group room",
+      "description": "Reserved for student team activities, research work, and project planning sessions."
+    },
+    {
+      "id": "H330",
+      "name": "H330",
+      "building": "H",
+      "floor": 3,
+      "type": "group room",
+      "description": "A comfortable environment for collaborative learning and academic group projects."
+    },
+    {
+      "id": "H313",
+      "name": "Lovsalen",
+      "building": "H",
+      "floor": 3,
+      "type": "conference hall",
+      "description": "A large seminar hall used for guest lectures, workshops, and academic presentations."
+    },
+    {
+      "id": "H3BBTK",
+      "name": "Bibliotek",
+      "building": "H",
+      "floor": 3,
+      "type": "bibliotek",
+      "description": "Extension of the main library located on the 3rd floor, with study zones and digital resources."
+    },
+    {
+      "id": "H3SU",
+      "name": "Student Union",
+      "building": "H",
+      "floor": 3,
+      "type": "student union",
+      "description": "Hub for student activities, events, and support services managed by the student union."
+    },
+    {
+      "id": "H2BBTK",
+      "name": "Bibliotek",
+      "building": "H",
+      "floor": 2,
+      "type": "bibliotek",
+      "description": "The main library on the 2nd floor, offering books, journals, and study spaces for students."
+    },
+    {
+      "id": "J1BC",
+      "name": "Restaurant Bistro",
+      "building": "J",
+      "floor": 1,
+      "type": "cafeteria",
+      "description": "Campus cafeteria serving meals, snacks, and beverages for students and staff."
+    },
+    {
+      "id": "J1504",
+      "name": "Multisalen",
+      "building": "J",
+      "floor": 1,
+      "type": "conference hall",
+      "description": "A multipurpose hall for conferences, cultural events, and large meetings."
+    },
+    {
+      "id": "J1620",
+      "name": "J1620",
+      "building": "J",
+      "floor": 1,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "J1630",
+      "name": "J1630",
+      "building": "J",
+      "floor": 1,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "J1640",
+      "name": "J1640",
+      "building": "J",
+      "floor": 1,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "J1650",
+      "name": "J1650",
+      "building": "J",
+      "floor": 1,
+      "type": "classroom",
+      "description": ""
+    },
+    {
+      "id": "J2ITTH",
+      "name": "IT Helpdesk",
+      "building": "J",
+      "floor": 2,
+      "type": "office",
+      "description": "Office providing technical support and IT assistance to students and staff."
+    },
+    {
+      "id": "J2AO",
+      "name": "Admission Office",
+      "building": "J",
+      "floor": 2,
+      "type": "office",
+      "description": "Administrative office handling student admissions, queries, and enrollment processes"
+    },
+    {
+      "id": "J2EO",
+      "name": "Ericsson Office",
+      "building": "J",
+      "floor": 2,
+      "type": "office",
+      "description": "Office space used for industry collaboration and academic partnership with Ericsson."
+    }
+  ]
+}
