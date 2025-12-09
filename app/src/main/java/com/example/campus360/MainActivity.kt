@@ -17,6 +17,7 @@ class MainActivity : ComponentActivity() {
                 val nav = rememberNavController()
                 NavHost(navController = nav, startDestination = "home") {
                     composable("home") { HomeScreen(nav) }
+                    composable("search") { SearchScreen(nav, applicationContext) }
                 }
             }
         }
