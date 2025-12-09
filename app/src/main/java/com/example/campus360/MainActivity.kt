@@ -4,8 +4,8 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
+import androidx.compose.runtime.*
+import androidx.navigation.compose.*
 import com.example.campus360.ui.theme.Campus360Theme
 
 class MainActivity : ComponentActivity() {
@@ -14,8 +14,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Campus360Theme {
-                Surface{
-                    Text("Campus360")
+                val nav = rememberNavController()
+                NavHost(navController = nav, startDestination = "home") {
+                    composable("home") { HomeScreen(nav) }
                 }
             }
         }
