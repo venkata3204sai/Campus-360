@@ -285,7 +285,7 @@
       "name": "Lovsalen",
       "building": "H",
       "floor": 3,
-      "type": "conference hall",
+      "type": "poi",
       "description": "A large seminar hall used for guest lectures, workshops, and academic presentations."
     },
     {
@@ -293,7 +293,7 @@
       "name": "Bibliotek",
       "building": "H",
       "floor": 3,
-      "type": "bibliotek",
+      "type": "poi",
       "description": "Extension of the main library located on the 3rd floor, with study zones and digital resources."
     },
     {
@@ -301,7 +301,7 @@
       "name": "Student Union",
       "building": "H",
       "floor": 3,
-      "type": "student union",
+      "type": "poi",
       "description": "Hub for student activities, events, and support services managed by the student union."
     },
     {
@@ -309,7 +309,7 @@
       "name": "Bibliotek",
       "building": "H",
       "floor": 2,
-      "type": "bibliotek",
+      "type": "poi",
       "description": "The main library on the 2nd floor, offering books, journals, and study spaces for students."
     },
     {
@@ -317,7 +317,7 @@
       "name": "Restaurant Bistro",
       "building": "J",
       "floor": 1,
-      "type": "cafeteria",
+      "type": "poi",
       "description": "Campus cafeteria serving meals, snacks, and beverages for students and staff."
     },
     {
@@ -325,7 +325,7 @@
       "name": "Multisalen",
       "building": "J",
       "floor": 1,
-      "type": "conference hall",
+      "type": "poi",
       "description": "A multipurpose hall for conferences, cultural events, and large meetings."
     },
     {
@@ -485,7 +485,7 @@
       "name": "C335",
       "building": "C",
       "floor": 3,
-      "type": "conference hall",
+      "type": "classroom",
       "description": "Medium-sized conference hall for departmental meetings, guest lectures, and academic events."
     },
     {
@@ -509,7 +509,7 @@
       "name": "C433",
       "building": "C",
       "floor": 4,
-      "type": "conferece hall",
+      "type": "classroom",
       "description": "Large conference room used for faculty meetings, project presentations, and seminars."
     },
     {
@@ -557,7 +557,7 @@
       "name": "C513A",
       "building": "C",
       "floor": 5,
-      "type": "conferece hall",
+      "type": "classroom",
       "description": "Spacious conference hall for seminars, departmental meetings, and research presentations."
     },
     {

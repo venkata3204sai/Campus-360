@@ -18,6 +18,7 @@ class MainActivity : ComponentActivity() {
                 NavHost(navController = nav, startDestination = "home") {
                     composable("home") { HomeScreen(nav) }
                     composable("search") { SearchScreen(nav, applicationContext) }
+                    composable("pois") { PoiListScreen(nav, applicationContext) }
                 }
             }
         }
