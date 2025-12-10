@@ -59,19 +59,13 @@ move efficiently between locations throughout his busy day.
 
 ### Development Status
 
-Track the development status of the app.
+[x] US1
 
-Use
-[ ] for not implemented
-[x] for implemented.
+[x] US2
 
-[ ] US1
+[x] US3
 
-[ ] US2
-
-[ ] US3
-
-[ ] US4
+[x] US4
 
 [ ] US5
 
