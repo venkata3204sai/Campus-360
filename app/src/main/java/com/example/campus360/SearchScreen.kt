@@ -96,7 +96,8 @@ fun SearchScreen(nav: NavHostController, ctx: Context) {
                 Column(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .clickable { }
+                        .clickable { selectedRoom = room
+                            nav.navigate("directions") }
                         .padding(12.dp)
                 ) {
                     Text(room.name, style = MaterialTheme.typography.bodyLarge)
