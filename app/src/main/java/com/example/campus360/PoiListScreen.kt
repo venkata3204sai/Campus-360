@@ -29,7 +29,10 @@ fun PoiListScreen(nav: NavHostController, ctx: Context) {
                 Column(
                     modifier = Modifier
                         .fillMaxWidth()
-                        .clickable { }
+                        .clickable {
+                            selectedRoom = poi
+                            nav.navigate("directions")
+                        }
                         .padding(12.dp)
                 ) {
                     Text(poi.name, style = MaterialTheme.typography.bodyLarge)
