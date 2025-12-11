@@ -2,6 +2,7 @@ package com.example.campus360
 
 import android.content.Context
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -12,6 +13,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Divider
@@ -42,7 +44,7 @@ fun SearchScreen(nav: NavHostController, ctx: Context) {
     var query by remember { mutableStateOf("") }
     var selectedType by remember { mutableStateOf("All") }
 
-    val types = listOf("All", "classroom", "lab", "office", "poi")
+    val types = listOf("All", "Classroom", "Lab", "Office", "POIs")
 
     val results = rooms.filter {
         val matchesText =
@@ -70,7 +72,10 @@ fun SearchScreen(nav: NavHostController, ctx: Context) {
 
         Spacer(modifier = Modifier.height(10.dp))
 
-        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
+        Row(modifier = Modifier
+            .fillMaxWidth()
+            .horizontalScroll(rememberScrollState())
+            , horizontalArrangement = Arrangement.SpaceEvenly) {
             types.forEach { type ->
                 val isSelected = type == selectedType
                 Button(
