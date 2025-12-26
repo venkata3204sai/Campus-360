@@ -1,12 +1,12 @@
 {
-  "rooms" : [
+  "rooms": [
     {
       "id": "G210",
       "name": "G210",
       "building": "G",
       "floor": 2,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G211",
@@ -14,7 +14,7 @@
       "building": "G",
       "floor": 2,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G212A",
@@ -22,7 +22,7 @@
       "building": "G",
       "floor": 2,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G212C",
@@ -30,7 +30,7 @@
       "building": "G",
       "floor": 2,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G213C",
@@ -38,7 +38,7 @@
       "building": "G",
       "floor": 2,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G214C",
@@ -46,7 +46,7 @@
       "building": "G",
       "floor": 2,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G2MKLAB",
@@ -62,7 +62,7 @@
       "building": "G",
       "floor": 2,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G310A",
@@ -70,7 +70,7 @@
       "building": "G",
       "floor": 3,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G310B",
@@ -78,7 +78,7 @@
       "building": "G",
       "floor": 3,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G311",
@@ -86,7 +86,7 @@
       "building": "G",
       "floor": 3,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G312",
@@ -94,7 +94,7 @@
       "building": "G",
       "floor": 3,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G313",
@@ -102,7 +102,7 @@
       "building": "G",
       "floor": 3,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G340",
@@ -110,7 +110,7 @@
       "building": "G",
       "floor": 3,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G410",
@@ -118,7 +118,7 @@
       "building": "G",
       "floor": 4,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G411",
@@ -126,7 +126,7 @@
       "building": "G",
       "floor": 4,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G412",
@@ -134,7 +134,7 @@
       "building": "G",
       "floor": 4,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G414",
@@ -142,7 +142,7 @@
       "building": "G",
       "floor": 4,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G415",
@@ -150,7 +150,7 @@
       "building": "G",
       "floor": 4,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G404",
@@ -158,7 +158,7 @@
       "building": "G",
       "floor": 4,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G510A",
@@ -166,7 +166,7 @@
       "building": "G",
       "floor": 5,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G510B",
@@ -174,7 +174,7 @@
       "building": "G",
       "floor": 5,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G511A",
@@ -182,7 +182,7 @@
       "building": "G",
       "floor": 5,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G512",
@@ -190,7 +190,7 @@
       "building": "G",
       "floor": 5,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G513",
@@ -198,7 +198,7 @@
       "building": "G",
       "floor": 5,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G514",
@@ -206,7 +206,7 @@
       "building": "G",
       "floor": 5,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "G541",
@@ -214,7 +214,7 @@
       "building": "G",
       "floor": 5,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "H320",
@@ -334,7 +334,7 @@
       "building": "J",
       "floor": 1,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "J1630",
@@ -342,7 +342,7 @@
       "building": "J",
       "floor": 1,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "J1640",
@@ -350,7 +350,7 @@
       "building": "J",
       "floor": 1,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "J1650",
@@ -358,7 +358,7 @@
       "building": "J",
       "floor": 1,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "J2ITTH",
@@ -390,7 +390,7 @@
       "building": "C",
       "floor": 2,
       "type": "group room",
-      "description": ""
+      "description": "Small group study room for collaborative work and team meetings"
     },
     {
       "id": "C236",
@@ -398,7 +398,7 @@
       "building": "C",
       "floor": 2,
       "type": "group room",
-      "description": ""
+      "description": "Small group study room for collaborative work and team meetings"
     },
     {
       "id": "C237",
@@ -406,7 +406,7 @@
       "building": "C",
       "floor": 2,
       "type": "group room",
-      "description": ""
+      "description": "Small group study room for collaborative work and team meetings"
     },
     {
       "id": "C243",
@@ -414,7 +414,7 @@
       "building": "C",
       "floor": 2,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C244",
@@ -422,7 +422,7 @@
       "building": "C",
       "floor": 2,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C245",
@@ -430,55 +430,55 @@
       "building": "C",
       "floor": 2,
       "type": "classroom",
-      "description": ""
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C216",
       "name": "C216",
       "building": "C",
       "floor": 2,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C313A",
       "name": "C313A",
       "building": "C",
       "floor": 3,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C341",
       "name": "C341",
       "building": "C",
       "floor": 3,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C342",
       "name": "C342",
       "building": "C",
       "floor": 3,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C343",
       "name": "C343",
       "building": "C",
       "floor": 3,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C334",
       "name": "C334",
       "building": "C",
       "floor": 3,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C335",
@@ -493,16 +493,16 @@
       "name": "C336",
       "building": "C",
       "floor": 3,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C413A",
       "name": "C413A",
       "building": "C",
       "floor": 4,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C433",
@@ -517,40 +517,40 @@
       "name": "C434",
       "building": "C",
       "floor": 4,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C435",
       "name": "C435",
       "building": "C",
       "floor": 4,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C442",
       "name": "C442",
       "building": "C",
       "floor": 4,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C444",
       "name": "C444",
       "building": "C",
       "floor": 4,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C446",
       "name": "C446",
       "building": "C",
       "floor": 4,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C513A",
@@ -565,64 +565,73 @@
       "name": "C533",
       "building": "C",
       "floor": 5,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C534",
       "name": "C534",
       "building": "C",
       "floor": 5,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C535",
       "name": "C535",
       "building": "C",
       "floor": 5,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C536",
       "name": "C536",
       "building": "C",
       "floor": 5,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C537",
       "name": "C537",
       "building": "C",
       "floor": 5,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C538",
       "name": "C538",
       "building": "C",
       "floor": 5,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C539",
       "name": "C539",
       "building": "C",
       "floor": 5,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
     },
     {
       "id": "C540",
       "name": "C540",
       "building": "C",
       "floor": 5,
-      "type": "Classroom",
-      "description": ""
+      "type": "classroom",
+      "description": "Classroom used for lectures, seminars, and student presentations"
+    },
+
+    {
+      "id": "R",
+      "name": "Reception",
+      "building": "R",
+      "floor": 1,
+      "type": "poi",
+      "description": "Main campus reception and Information Desk"
     }
   ]
 }

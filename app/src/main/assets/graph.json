@@ -1,0 +1,167 @@
+{
+  "edges": [
+
+    {"from": "ENTRANCE_C_1_1", "to": "STAIRS_C_1_1"},
+    {"from": "STAIRS_C_1_2", "to": "ENTRANCE_C_1_2"},
+
+    {"from": "STAIRS_C_3_2_A", "to": "PASSAGE_C_G"},
+
+    {"from": "STAIRS_C_1_1", "to": "STAIRS_C_2_1"},
+    {"from": "STAIRS_C_2_1", "to": "STAIRS_C_3_1"},
+    {"from": "STAIRS_C_3_1", "to": "STAIRS_C_4_1"},
+    {"from": "STAIRS_C_4_1", "to": "STAIRS_C_5_1"},
+
+    {"from": "STAIRS_C_1_2", "to": "STAIRS_C_2_2"},
+    {"from": "STAIRS_C_2_2", "to": "STAIRS_C_3_2_A"},
+    {"from": "STAIRS_C_3_2_A", "to": "STAIRS_C_3_2"},
+    {"from": "STAIRS_C_3_2", "to": "STAIRS_C_4_2"},
+    {"from": "STAIRS_C_4_2", "to": "STAIRS_C_5_2"},
+
+    {"from": "STAIRS_C_2_1", "to": "C235"},
+    {"from": "C235", "to":"C236"},
+    {"from": "C236", "to":"C237"},
+    {"from": "C237", "to":"C216"},
+    {"from": "C237", "to":"C243"},
+    {"from": "C216", "to":"C243"},
+    {"from": "C243", "to":"C244"},
+    {"from": "C244", "to":"C245"},
+    {"from": "C245", "to": "STAIRS_C_2_2"},
+
+    {"from": "STAIRS_C_3_1", "to": "C334"},
+    {"from": "C334", "to":"C335"},
+    {"from": "C335", "to":"C336"},
+    {"from": "C336", "to":"C313A"},
+    {"from": "C336", "to":"C341"},
+    {"from": "C313A", "to":"C341"},
+    {"from": "C341", "to":"C342"},
+    {"from": "C342", "to":"C343"},
+    {"from": "C343", "to": "STAIRS_C_3_2"},
+
+    {"from": "STAIRS_C_4_1", "to": "C433"},
+    {"from": "C433", "to":"C434"},
+    {"from": "C434", "to":"C435"},
+    {"from": "C435", "to":"C413A"},
+    {"from": "C435", "to":"C442"},
+    {"from": "C413A", "to":"C442"},
+    {"from": "C442", "to":"C444"},
+    {"from": "C444", "to":"C446"},
+    {"from": "C446", "to": "STAIRS_C_4_2"},
+
+    {"from": "STAIRS_C_5_1", "to": "C533"},
+    {"from": "C533", "to":"C534"},
+    {"from": "C534", "to":"C535"},
+    {"from": "C535", "to":"C513A"},
+    {"from": "C535", "to":"C536"},
+    {"from": "C513A", "to":"C536"},
+    {"from": "C536", "to":"C537"},
+    {"from": "C537", "to":"C538"},
+    {"from": "C538", "to":"C539"},
+    {"from": "C539", "to":"C540"},
+    {"from": "C540", "to": "STAIRS_C_5_2"},
+
+
+
+    {"from": "ENTRANCE_G_1_1", "to": "STAIRS_G_1_1"},
+    {"from": "STAIRS_G_1_2", "to": "ENTRANCE_G_1_2"},
+
+    {"from": "PASSAGE_C_G", "to": "STAIRS_G_3_1_A"},
+    {"from": "G213C", "to": "PASSAGE_G_H"},
+    {"from": "STAIRS_G_2_2", "to": "PASSAGE_G_R"},
+
+    {"from": "STAIRS_G_1_1", "to": "STAIRS_G_2_1"},
+    {"from": "STAIRS_G_2_1", "to": "STAIRS_G_3_1_A"},
+    {"from": "STAIRS_G_3_1_A", "to": "STAIRS_G_3_1"},
+    {"from": "STAIRS_G_3_1", "to": "STAIRS_G_4_1"},
+    {"from": "STAIRS_G_4_1", "to": "STAIRS_G_5_1"},
+
+    {"from": "STAIRS_G_1_2", "to": "STAIRS_G_2_2"},
+    {"from": "STAIRS_G_2_2", "to": "STAIRS_G_3_2"},
+    {"from": "STAIRS_G_3_2", "to": "STAIRS_G_4_2"},
+    {"from": "STAIRS_G_4_2", "to": "STAIRS_G_5_2"},
+
+    {"from": "STAIRS_G_2_1", "to": "G210"},
+    {"from": "G210", "to": "G211"},
+    {"from": "G210", "to": "G241"},
+    {"from": "G241", "to": "G211"},
+    {"from": "G211", "to": "G212A"},
+    {"from": "G212A", "to": "G2MKLAB"},
+    {"from": "G212A", "to": "G212C"},
+    {"from": "G212C", "to": "G213C"},
+    {"from": "G213C", "to": "G214C"},
+    {"from": "G214C", "to": "STAIRS_G_2_2"},
+
+    {"from": "STAIRS_G_3_1", "to": "G310B"},
+    {"from": "G310B", "to": "G310A"},
+    {"from": "G310A", "to": "G311"},
+    {"from": "G311", "to": "G340"},
+    {"from": "G311", "to": "G312"},
+    {"from": "G312", "to": "G313"},
+    {"from": "G313", "to": "STAIRS_G_3_2"},
+
+    {"from": "STAIRS_G_4_1", "to": "G410"},
+    {"from": "G410", "to": "G411"},
+    {"from": "G411", "to": "G412"},
+    {"from": "G412", "to": "G404"},
+    {"from": "G412", "to": "G414"},
+    {"from": "G414", "to": "G415"},
+    {"from": "G415", "to": "STAIRS_G_4_2"},
+
+    {"from": "STAIRS_G_5_1", "to": "G510B"},
+    {"from": "G510B", "to": "G510A"},
+    {"from": "G510A", "to": "G511A"},
+    {"from": "G511A", "to": "G541"},
+    {"from": "G511A", "to": "G512"},
+    {"from": "G512", "to": "G513"},
+    {"from": "G513", "to": "G514"},
+    {"from": "G514", "to": "STAIRS_G_5_2"},
+
+
+
+    {"from": "ENTRANCE_H_1", "to": "STAIRS_H_2"},
+    {"from": "ENTRANCE_H_1", "to": "H2BBTK"},
+
+    {"from": "PASSAGE_G_H", "to": "H320"},
+    {"from": "PASSAGE_G_H", "to": "H3BBTK"},
+    {"from": "H3SU", "to": "PASSAGE_G_H"},
+    {"from": "H3SU", "to": "PASSAGE_R_H"},
+    {"from": "H3BBTK", "to": "PASSAGE_H_J"},
+
+    {"from": "STAIRS_H_2", "to": "STAIRS_H_3"},
+
+    {"from": "STAIRS_H_3", "to": "H3SU"},
+    {"from": "STAIRS_H_3", "to": "H3BBTK"},
+    {"from": "H3BBTK", "to": "H313"},
+    {"from": "H320", "to": "H321"},
+    {"from": "H321", "to": "H322"},
+    {"from": "H320", "to": "H330"},
+    {"from": "H320", "to": "H329"},
+    {"from": "H321", "to": "H328"},
+    {"from": "H321", "to": "H327"},
+    {"from": "H322", "to": "H326"},
+
+
+
+    {"from": "ENTRANCE_J_1", "to": "STAIRS_J_1"},
+    {"from": "J1504", "to": "ENTRANCE_J_2"},
+
+    {"from": "STAIRS_J_1", "to": "STAIRS_J_2"},
+
+    {"from": "STAIRS_J_1", "to": "J1BC"},
+    {"from": "J1BC", "to": "J1620"},
+    {"from": "J1620", "to": "J1630"},
+    {"from": "J1630", "to": "J1640"},
+    {"from": "J1640", "to": "J1650"},
+    {"from": "J1650", "to": "J1504"},
+
+    {"from": "PASSAGE_H_J", "to": "J2ITTH"},
+    {"from": "J2ITTH", "to": "STAIRS_J_2"},
+    {"from": "STAIRS_J_2", "to": "J2AO"},
+    {"from": "J2AO", "to": "J2EO"},
+
+
+    {"from": "ENTRANCE_R", "to": "R"},
+
+    {"from": "PASSAGE_G_R", "to": "R"},
+    {"from": "R", "to": "PASSAGE_R_H"}
+  ]
+}
