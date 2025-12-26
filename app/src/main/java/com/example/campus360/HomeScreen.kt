@@ -25,7 +25,7 @@ fun HomeScreen(nav: NavHostController) {
         Text("Campus360", style = MaterialTheme.typography.headlineMedium)
         Spacer(modifier = Modifier.height(16.dp))
 
-        Button(onClick = { nav.navigate("search") }) {
+        /*Button(onClick = { nav.navigate("search") }) {
             Text("Search Rooms")
         }
 
@@ -33,6 +33,9 @@ fun HomeScreen(nav: NavHostController) {
 
         Button(onClick = { nav.navigate("pois") }) {
             Text("Points of Interest")
+        }*/
+        Button(onClick = { nav.navigate("find") }) {
+            Text("Find & Go")
         }
     }
 }
