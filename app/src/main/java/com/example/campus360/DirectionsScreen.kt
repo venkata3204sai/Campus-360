@@ -1,55 +1,76 @@
 package com.example.campus360
 
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import org.json.JSONObject
 
 @Composable
-fun DirectionsScreen(nav: NavHostController, room: Room) {
+fun DirectionsScreen(
+    nav: NavHostController,
+    fromId: String,
+    toId: String
+) {
+    val context = androidx.compose.ui.platform.LocalContext.current
 
-    var navigating by remember { mutableStateOf(false) }
+    // Load rooms
+    val rooms = remember {
+        val jsonText = context.assets
+            .open("rooms.json")
+            .bufferedReader()
+            .use { it.readText() }
 
-    val steps = listOf(
-        "Enter Building ${room.building}.",
-        "Go to Floor ${room.floor} using stairs or elevator.",
-        "Walk along the main corridor.",
-        "Look for room ${room.name}.",
-        "You have arrived at your destination."
-    )
+        val root = JSONObject(jsonText)
+        Room.fromJsonArray(root.getJSONArray("rooms"))
+    }
 
-    Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
+    val roomsById = remember { rooms.associateBy { it.id } }
 
-        Text(
-            text = "Directions to ${room.name}",
-            style = MaterialTheme.typography.headlineSmall
-        )
+    // Load graph
+    val graph = remember { GraphModel.loadGraph(context) }
 
-        Spacer(modifier = Modifier.height(12.dp))
+    // Compute path
+    val path = remember(fromId, toId) {
+        PathFinder.findPath(graph, fromId, toId)
+    }
 
-        LazyColumn(modifier = Modifier.weight(1f)) {
-            itemsIndexed(steps) { index, step ->
-                Text("${index + 1}. $step", modifier = Modifier.padding(8.dp))
-                Divider()
-            }
-        }
+    // Convert to text steps
+    val steps = remember(path) {
+        pathToSteps(path, roomsById)
+    }
+
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp)
+            .verticalScroll(rememberScrollState())
+    ) {
+
+        Text("Directions", style = MaterialTheme.typography.headlineSmall)
+        Spacer(modifier = Modifier.height(8.dp))
+
+        Text("From: $fromId")
+        Text("To: $toId")
 
         Spacer(modifier = Modifier.height(16.dp))
 
-        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.End) {
-            if (!navigating) {
-                Button(onClick = { navigating = true }) {
-                    Text("Start")
-                }
-            } else {
-                Button(onClick = { navigating = false }) {
-                    Text("Cancel")
-                }
-            }
+        steps.forEachIndexed { index, step ->
+            Text("${index + 1}. $step", modifier = Modifier.padding(vertical = 6.dp))
+            Divider()
+        }
+
+        Spacer(modifier = Modifier.height(20.dp))
+
+        Button(
+            onClick = { nav.popBackStack() },
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text("Back")
         }
     }
 }
