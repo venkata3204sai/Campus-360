@@ -21,7 +21,16 @@ class MainActivity : ComponentActivity() {
                     composable("home") { HomeScreen(nav) }
                     composable("search") { SearchScreen(nav, applicationContext) }
                     composable("pois") { PoiListScreen(nav, applicationContext) }
-                    composable("directions") { DirectionsScreen(nav, selectedRoom!!)}
+                    composable("directions/{fromId}/{toId}") { backStack ->
+                        val fromId = backStack.arguments?.getString("fromId") ?: ""
+                        val toId = backStack.arguments?.getString("toId") ?: ""
+
+                        DirectionsScreen(
+                            nav = nav,
+                            fromId = fromId,
+                            toId = toId
+                        )
+                    }
                     composable("find") { FindAndGoScreen(nav, applicationContext) }
                 }
             }
