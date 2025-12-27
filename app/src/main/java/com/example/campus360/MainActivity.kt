@@ -22,6 +22,7 @@ class MainActivity : ComponentActivity() {
                     composable("search") { SearchScreen(nav, applicationContext) }
                     composable("pois") { PoiListScreen(nav, applicationContext) }
                     composable("directions") { DirectionsScreen(nav, selectedRoom!!)}
+                    composable("find") { FindAndGoScreen(nav, applicationContext) }
                 }
             }
         }
