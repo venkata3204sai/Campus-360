@@ -38,7 +38,6 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
 
     val selectedFilters = remember { mutableStateOf(setOf<String>()) }
 
-    // Load rooms + POIs (reuse Room model)
     val rooms = remember {
         val json = context.assets.open("rooms.json")
             .bufferedReader().use { it.readText() }
@@ -73,7 +72,6 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
 
         Spacer(Modifier.height(8.dp))
 
-        // FILTER CHIPS (Classroom, Lab, Office, POI)
         FilterRow(
             selectedFilters = selectedFilters.value,
             onToggle = { type ->
@@ -109,8 +107,6 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
 
         Spacer(Modifier.height(8.dp))
 
-        // RESULTS
-
         LazyColumn(
             modifier = Modifier
                 .weight(1f)
@@ -138,6 +134,51 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
             }
         }
 
+        Spacer(Modifier.height(12.dp))
+
+        if (selectedDestinationId != null) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Text("Destination: $selectedDestinationId")
+                TextButton(onClick = {
+                    selectedDestinationId = null
+                    selectedStartId = null
+                    selectionMode = SelectionMode.DESTINATION
+                }) {
+                    Text("Clear")
+                }
+            }
+        }
+
+        if (selectedStartId != null) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Text("Start: $selectedStartId")
+                TextButton(onClick = {
+                    selectedStartId = null
+                }) {
+                    Text("Clear")
+                }
+            }
+        }
+
+        if (selectedStartId != null && selectedDestinationId != null) {
+            OutlinedButton(
+                onClick = {
+                    val temp = selectedStartId
+                    selectedStartId = selectedDestinationId
+                    selectedDestinationId = temp
+                },
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text("Swap Start and Destination")
+            }
+        }
+
 
         Spacer(Modifier.height(12.dp))
 
@@ -149,6 +190,16 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
                 Text("Set Start Location")
             }
         }
+
+        OutlinedButton(
+            onClick = { /* QR to be implemented later */ },
+            enabled = false,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            Text("Scan QR (Coming Soon)")
+        }
+
+        Spacer(Modifier.height(12.dp))
 
         Button(
             onClick = {
