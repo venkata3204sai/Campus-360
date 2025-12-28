@@ -17,14 +17,19 @@ fun pathToSteps(
 
         when {
             next.startsWith("STAIRS") -> {
-                steps.add("Take the stairs.")
+                if (current.startsWith("STAIRS")) {
+                    continue
+                }
+                else {
+                    steps.add("Take the stairs.")
+                }
             }
             next.startsWith("PASSAGE") -> {
                 steps.add("Proceed through the connecting passage.")
             }
             roomsById.containsKey(next) -> {
                 val room = roomsById[next]!!
-                steps.add("Go to ${room.id} (Building ${room.building}, Floor ${room.floor}).")
+                steps.add("Go to ${room.name} (Building ${room.building}, Floor ${room.floor}).")
             }
             else -> {
                 steps.add("Move to $next.")

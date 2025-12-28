@@ -1,40 +1,54 @@
 package com.example.campus360
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 
 @Composable
 fun HomeScreen(nav: NavHostController) {
     Column(
-        modifier = Modifier.fillMaxSize().padding(24.dp),
+        modifier = Modifier.fillMaxSize().padding(16.dp),
         verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        Text("Campus360", style = MaterialTheme.typography.headlineMedium)
-        Spacer(modifier = Modifier.height(16.dp))
+        horizontalAlignment = Alignment.CenterHorizontally) {
 
-        /*Button(onClick = { nav.navigate("search") }) {
-            Text("Search Rooms")
-        }
+        Image(
+            painter = painterResource(R.drawable.campus360_transparent),
+            contentDescription = "App Logo",
+            modifier = Modifier.size(250.dp)
+        )
 
-        Spacer(modifier = Modifier.height(12.dp))
+        Text(
+            "CAMPUS360",
+            style = MaterialTheme.typography.displayMedium,
+            fontWeight = FontWeight.ExtraBold)
 
-        Button(onClick = { nav.navigate("pois") }) {
-            Text("Points of Interest")
-        }*/
-        Button(onClick = { nav.navigate("find") }) {
+        Spacer(Modifier.height(8.dp))
+
+        Text(
+            "Navigate Smarter Every Day",
+            style = MaterialTheme.typography.bodyLarge)
+
+        Spacer(Modifier.height(20.dp))
+
+        Button(
+            onClick = { nav.navigate("find") },
+            modifier = Modifier.fillMaxWidth()) {
             Text("Find & Go")
         }
     }
