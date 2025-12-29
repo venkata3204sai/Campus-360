@@ -29,6 +29,12 @@ class MainActivity : ComponentActivity() {
                         )
                     }
                     composable("find") { FindAndGoScreen(nav, applicationContext) }
+                    composable("qr") {
+                        QrScanScreen(nav) { scannedText ->
+                            println("QR scanned: $scannedText")
+                        }
+                    }
+
                 }
             }
         }

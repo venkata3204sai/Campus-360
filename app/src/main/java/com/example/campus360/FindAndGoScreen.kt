@@ -218,8 +218,7 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
         }
 
         OutlinedButton(
-            onClick = { /* QR to be implemented later */ },
-            enabled = false,
+            onClick = {nav.navigate("qr")},
             modifier = Modifier.fillMaxWidth()
         ) {
             Text("Scan QR (Coming Soon)")
