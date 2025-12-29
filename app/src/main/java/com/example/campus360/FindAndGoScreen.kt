@@ -2,6 +2,7 @@ package com.example.campus360
 
 import android.content.Context
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -12,6 +13,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material3.Button
 import androidx.compose.material3.Divider
 import androidx.compose.material3.FilterChip
@@ -23,6 +25,7 @@ import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -59,10 +62,33 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
 
     val selectedFilters = remember { mutableStateOf(setOf<String>()) }
 
+    var qrErrorMessage by remember { mutableStateOf<String?>(null) }
+
     val rooms = remember {
         val json = context.assets.open("rooms.json")
             .bufferedReader().use { it.readText() }
         Room.fromJsonArray(JSONObject(json).getJSONArray("rooms"))
+    }
+
+    val qrResult = nav.currentBackStackEntry
+        ?.savedStateHandle
+        ?.get<String>("qr_result")
+
+    LaunchedEffect(qrResult) {
+        qrResult?.let { scannedId ->
+            val validIds = rooms.map { it.id }.toSet()
+
+            if (validIds.contains(scannedId)) {
+                selectedStartId = scannedId
+                qrErrorMessage = null
+            } else {
+                qrErrorMessage = "Invalid QR code. This location is not recognised"
+            }
+
+            nav.currentBackStackEntry
+                ?.savedStateHandle
+                ?.remove<String>("qr_result")
+        }
     }
 
     val filteredResults = rooms.filter { room ->
@@ -149,6 +175,7 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
                             selectedDestinationId = room.id
                         } else {
                             selectedStartId = room.id
+                            qrErrorMessage = null
                             selectionMode = SelectionMode.DESTINATION
                         }
                     }
@@ -217,11 +244,21 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
             }
         }
 
+        if (qrErrorMessage != null) {
+            Text(
+                qrErrorMessage!!,
+                color = MaterialTheme.colorScheme.error,
+                modifier = Modifier.padding(vertical = 8.dp)
+            )
+        }
+
         OutlinedButton(
-            onClick = {nav.navigate("qr")},
+            onClick = {
+                nav.navigate("qr")
+            },
             modifier = Modifier.fillMaxWidth()
         ) {
-            Text("Scan QR (Coming Soon)")
+            Text("Scan QR")
         }
 
         Spacer(Modifier.height(12.dp))
@@ -245,7 +282,7 @@ fun FilterRow(
     onToggle: (String) -> Unit
 ) {
     Row(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),
         horizontalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         LOCATION_TYPES.forEach { (type, label) ->
