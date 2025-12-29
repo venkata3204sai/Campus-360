@@ -53,9 +53,31 @@ fun DirectionsScreen(
         PathFinder.findPath(graph, fromId, toId)
     }
 
+    if (path.isEmpty()) {
+        Column(modifier = Modifier.fillMaxSize()) {
+            Text(
+                text = "No route could be found between the selected locations.",
+                color = MaterialTheme.colorScheme.error,
+                modifier = Modifier.padding(16.dp)
+            )
+
+            Button(
+                onClick = { nav.popBackStack() },
+                modifier = Modifier.padding(16.dp)
+            ) {
+                Text("Go Back")
+            }
+        }
+        return
+    }
+
     // Convert to text steps
     val steps = remember(path) {
         pathToSteps(path, roomsById)
+    }
+
+    val estimatedTimeSec = remember(path) {
+        TimeEstimator.estimateTime(path)
     }
 
     Column(
@@ -101,6 +123,14 @@ fun DirectionsScreen(
                 }
             }
         }
+
+        Spacer(Modifier.height(12.dp))
+
+        Text(
+            text = "Estimated Walking Time: $estimatedTimeSec sec",
+            style = MaterialTheme.typography.titleMedium,
+            modifier = Modifier.padding(vertical = 8.dp)
+        )
 
         Spacer(Modifier.height(12.dp))
 
