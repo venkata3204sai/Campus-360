@@ -1,4 +1,4 @@
-package com.example.campus360
+package com.example.campus360.data.model
 
 import android.content.Context
 import org.json.JSONObject

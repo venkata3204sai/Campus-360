@@ -1,4 +1,4 @@
-package com.example.campus360
+package com.example.campus360.domain
 
 object TimeEstimator {
 

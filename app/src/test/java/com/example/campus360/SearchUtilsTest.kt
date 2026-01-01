@@ -1,5 +1,6 @@
 package com.example.campus360
 
+import com.example.campus360.data.model.Room
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
