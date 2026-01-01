@@ -67,13 +67,15 @@ move efficiently between locations throughout his busy day.
 
 [x] US4
 
-[ ] US5
+[x] US5
 
-[ ] US6
+[x] US6
 
-[ ] US7
+[x] US7
 
-[ ] US8
+[x] US8
+
+[x] US9
 
 ## App Context and Data
 
