@@ -6,6 +6,11 @@
 
 The goal of the Campus 360 app is to provide students, visitors, and staff with a seamless and intuitive indoor–outdoor navigation experience within the university campus. The app aims to centralize all essential campus information—buildings, rooms, services, facilities, and pathways—into one unified platform. By combining interactive maps, floor-level navigation, and contextual details about different locations, Campus 360 helps users quickly find their way, explore the campus, and access relevant information without confusion. Ultimately, the app improves campus accessibility, reduces navigation time, and enhances the overall user experience for new and existing members of the university community.
 
+TODO: Add one or more screenshots of the app when you finalise the UI
+
+## Architecture Overview
+TODO: Add a simple diagram that explains the architecture.
+
 ## Targeted Users
 Campus360 is designed for individuals who frequently navigate the BTH campus but still face
 minor difficulties locating specific rooms or facilities. Although many students and staff
@@ -48,9 +53,9 @@ move efficiently between locations throughout his busy day.
 | ----- | ----------------------- | ------------------------------------------------------------------ | ------------------------------------------------ | ----------------------- |
 | US1   | As a user,              | I want to search for a lecture room by name or number,             | so that I can arrive on time without confusion.  | The user can type a room name or number into the search bar. The app displays the building and floor where the room is located. If the room does not exist, an error message is shown.                |
 | US2   | As a user,              | I want to filter locations based on their type,                    | so that I have an overview of all meeting rooms. | The app displays filter options such as classrooms, labs, offices, and POIs. Selecting a category shows only matching rooms                 |
-| US3   | As a user,              | I want visual navigation instructions for a location,              | so that I know in which direction I have to go.  | The app displays step by-step text directions. No live map navigation is included.                  |
-| US4   | As a user,              | I want to explore points of interest like the library or cafeteria,| so that I can experience campus life.            | Points of interest are listed Each POI includes a short description.|
-| US5   | As a user,              |I want to scan QR codes at entrances or doors,                      |so that I can know my exact current location.     | Scanning a valid QR instantly shows the current location. Invalid QR codes display an error message.|
+| US3   | As a user,              | I want visual navigation instructions for a location,              | so that I know in which direction I have to go.  | The app displays step-by-step text directions. No live map navigation is included.                  |
+| US4   | As a user,              | I want to explore points of interest like the library or cafeteria,| so that I can experience campus life.            | Points of interest are listed. Each POI includes a short description.|
+| US5   | As a user,              |I want to scan QR codes at entrances or doors,                      |so that I can know my exact current location.     | Scanning a valid QR code instantly shows the current location. Invalid QR codes display an error message.|
 | US6   | As a user,              |I want to preview all steps before I start walking,                 |so that I understand the full route in advance.   | The app displays the full list of steps in a scrollable view. A 'Start' button begins navigation.|
 | US7   | As a user,              |I want a cancel button,                                             |so that I can stop the directions if I change my mind.| A visible 'Cancel' button appears during navigation. Tapping it stops navigation and returns to home.         |
 | US8   | As a user,              |I want to see the estimated time required to reach the destination, |so that I know whether I will arrive on time          | The app calculates the estimated walking time using a predefined speed. The estimated time is displayed with directions.|
