@@ -1,4 +1,4 @@
-package com.example.campus360
+package com.example.campus360.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
@@ -19,6 +19,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
+import com.example.campus360.R
 
 @Composable
 fun HomeScreen(nav: NavHostController) {

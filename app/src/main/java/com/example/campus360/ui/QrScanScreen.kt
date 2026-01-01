@@ -1,4 +1,4 @@
-package com.example.campus360
+package com.example.campus360.ui
 
 import android.Manifest
 import androidx.compose.foundation.layout.Arrangement

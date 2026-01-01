@@ -1,4 +1,6 @@
-package com.example.campus360
+package com.example.campus360.domain
+
+import com.example.campus360.data.model.Room
 
 fun pathToSteps(
     path: List<String>,
