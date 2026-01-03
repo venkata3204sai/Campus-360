@@ -95,7 +95,8 @@ fun DirectionsScreen(
 
         Spacer(Modifier.height(20.dp))
 
-        Text("Directions", style = MaterialTheme.typography.headlineSmall)
+        Text("Directions", style = MaterialTheme.typography.headlineSmall,
+            color = MaterialTheme.colorScheme.primary)
 
         Spacer(Modifier.height(12.dp))
 
@@ -135,7 +136,8 @@ fun DirectionsScreen(
         Text(
             text = "Estimated Walking Time: $estimatedTimeSec sec",
             style = MaterialTheme.typography.titleMedium,
-            modifier = Modifier.padding(vertical = 8.dp)
+            modifier = Modifier.padding(vertical = 8.dp),
+            color = MaterialTheme.colorScheme.primary
         )
 
         Spacer(Modifier.height(12.dp))
@@ -148,7 +150,8 @@ fun DirectionsScreen(
             items(steps.size) { index ->
                 ListItem(
                     headlineContent = {
-                        Text("Step ${index + 1}", style = MaterialTheme.typography.labelMedium)
+                        Text("Step ${index + 1}", style = MaterialTheme.typography.labelMedium,
+                            color = MaterialTheme.colorScheme.primary)
                     },
                     supportingContent = {
                         Text(steps[index])

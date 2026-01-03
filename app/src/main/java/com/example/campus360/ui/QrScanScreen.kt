@@ -54,7 +54,8 @@ fun QrScanScreen(
     ) {
         Spacer(Modifier.height(20.dp))
 
-        Text("Scan QR Code", style = MaterialTheme.typography.headlineSmall)
+        Text("Scan QR Code", style = MaterialTheme.typography.headlineSmall,
+            color = MaterialTheme.colorScheme.primary)
 
         Spacer(Modifier.height(12.dp))
 

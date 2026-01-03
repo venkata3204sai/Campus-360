@@ -37,13 +37,15 @@ fun HomeScreen(nav: NavHostController) {
         Text(
             "CAMPUS360",
             style = MaterialTheme.typography.displayMedium,
-            fontWeight = FontWeight.ExtraBold)
+            fontWeight = FontWeight.ExtraBold,
+            color = MaterialTheme.colorScheme.primary)
 
         Spacer(Modifier.height(8.dp))
 
         Text(
             "Navigate Smarter Every Day",
-            style = MaterialTheme.typography.bodyLarge)
+            style = MaterialTheme.typography.bodyLarge,
+            color = MaterialTheme.colorScheme.secondary)
 
         Spacer(Modifier.height(20.dp))
 
