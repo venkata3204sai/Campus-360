@@ -6,7 +6,10 @@
 
 The goal of the Campus 360 app is to provide students, visitors, and staff with a seamless and intuitive indoor–outdoor navigation experience within the university campus. The app aims to centralize all essential campus information—buildings, rooms, services, facilities, and pathways—into one unified platform. By combining interactive maps, floor-level navigation, and contextual details about different locations, Campus 360 helps users quickly find their way, explore the campus, and access relevant information without confusion. Ultimately, the app improves campus accessibility, reduces navigation time, and enhances the overall user experience for new and existing members of the university community.
 
-TODO: Add one or more screenshots of the app when you finalise the UI
+| ![screenshot-1](docs/ui/ss1.jpg) | ![screenshot-2](docs/ui/ss2.jpg) | ![screenshot-3](docs/ui/ss3.jpg) |
+|----------------------------------|----------------------------------|----------------------------------|
+| ![screenshot-4](docs/ui/ss4.jpg) | ![screenshot-5](docs/ui/ss5.jpg) | ![screenshot-6](docs/ui/ss6.jpg) |
+
 
 ## Architecture Overview
 
