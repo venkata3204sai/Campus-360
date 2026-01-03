@@ -96,19 +96,14 @@ OS version: Android 10 +
 
 Screen Size: 6.1-7 inches 
 
-Sensors: None 
+Sensors: Camera (used for QR code scanning)
 
 Connectivity: None (Not for core functionality)
 
 ### What data is being collected from the user?
+Search Queries (session-only)
 
-Search queries 
-
-Selected locations 
-
-Saved locations 
-
-Recently viewed locations 
+Selected Start and Destination location (session-only)
 
 No GPS data 
 
@@ -116,35 +111,27 @@ No user's personal information
 
 ### What are the sources of the data
 
-Manually created buildings, floors, rooms... JSON files. 
+Manually created buildings, floors, and rooms stored in local JSON files
 
-Static images for floor maps 
-
-User inputs
+User inputs (search queries, selections)
 
 ### Data Lifecycle
 
 #### Session Data 
 
-Current search 
+Current search query
 
-Temporary navigation path 
+Temporary navigation path
 
-Floor map view state 
+Selected start and destination locations
 
 #### Stored Locally 
 
-Saved rooms 
+None (all user interaction data is session-based)
 
-Recently Viewed rooms 
+#### Offline Data Assets
 
-Cached floor map images 
-
-#### Stored on Server (Initially, this will be stored locally) 
-
-Room Data
-
-Building Data, …
+Room data and building data are stored as local JSON assets bundled with the app.
 
 ## How to Use
 
