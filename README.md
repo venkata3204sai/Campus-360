@@ -9,7 +9,7 @@ The goal of the Campus 360 app is to provide students, visitors, and staff with 
 TODO: Add one or more screenshots of the app when you finalise the UI
 
 ## Architecture Overview
-TODO: Add a simple diagram that explains the architecture.
+  ![Architecture Diagram](docs\architecture\architecture.png)
 
 ## Targeted Users
 Campus360 is designed for individuals who frequently navigate the BTH campus but still face
