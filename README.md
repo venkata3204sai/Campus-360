@@ -9,7 +9,8 @@ The goal of the Campus 360 app is to provide students, visitors, and staff with 
 TODO: Add one or more screenshots of the app when you finalise the UI
 
 ## Architecture Overview
-  ![Architecture Diagram](docs/architecture/architecture.png)
+
+![Architecture Diagram](docs/architecture/architecture.png)
 
 ## Targeted Users
 Campus360 is designed for individuals who frequently navigate the BTH campus but still face
@@ -86,7 +87,7 @@ move efficiently between locations throughout his busy day.
 
 ### Context Diagram
 
-<img width="751" height="141" alt="context_diagram_1234" src="https://github.com/user-attachments/assets/ace7ad2a-a7cd-4641-bcd2-3e2439dc514b" />
+![Context Diagram](docs/architecture/context.png)
 
 ### What is the Targeted Hardware?
 
