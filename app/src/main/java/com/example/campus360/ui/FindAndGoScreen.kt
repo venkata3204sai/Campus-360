@@ -31,10 +31,12 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.example.campus360.data.model.Room
 import org.json.JSONObject
+import androidx.compose.ui.platform.testTag
 
 
 private val LOCATION_TYPES = listOf(
@@ -118,7 +120,7 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
             value = searchQuery,
             onValueChange = { searchQuery = it },
             label = { Text("Search room or POI") },
-            modifier = Modifier.fillMaxWidth())
+            modifier = Modifier.fillMaxWidth().testTag("searchField"))
 
         Spacer(Modifier.height(8.dp))
 
