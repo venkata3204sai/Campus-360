@@ -1,5 +1,6 @@
 package com.example.campus360.ui
 
+import android.R
 import android.content.Context
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
@@ -21,6 +22,7 @@ import androidx.compose.material3.ListItem
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -112,7 +114,8 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
 
         Spacer(Modifier.height(20.dp))
 
-        Text("Find & Go", style = MaterialTheme.typography.headlineSmall)
+        Text("Find & Go", style = MaterialTheme.typography.headlineSmall,
+            color = MaterialTheme.colorScheme.primary)
 
         Spacer(Modifier.height(12.dp))
 
@@ -120,7 +123,11 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
             value = searchQuery,
             onValueChange = { searchQuery = it },
             label = { Text("Search room or POI") },
-            modifier = Modifier.fillMaxWidth().testTag("searchField"))
+            modifier = Modifier.fillMaxWidth().testTag("searchField"),
+            colors = OutlinedTextFieldDefaults.colors(
+                focusedBorderColor = MaterialTheme.colorScheme.primary,
+                focusedLabelColor = MaterialTheme.colorScheme.primary
+            ))
 
         Spacer(Modifier.height(8.dp))
 
