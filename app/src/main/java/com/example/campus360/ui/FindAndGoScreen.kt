@@ -1,6 +1,5 @@
 package com.example.campus360.ui
 
-import android.R
 import android.content.Context
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.horizontalScroll
@@ -38,7 +37,6 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.example.campus360.data.model.Room
 import org.json.JSONObject
-import androidx.compose.ui.platform.testTag
 
 
 private val LOCATION_TYPES = listOf(
@@ -175,9 +173,19 @@ fun FindAndGoScreen(nav: NavHostController, context: Context) {
                 ListItem(
                     headlineContent = { Text(room.name) },
                     supportingContent = {
-                        Text(
-                            "${room.type.uppercase()} • ${room.building} • Floor ${room.floor}"
-                        )
+                        Column {
+                            Text(
+                                "${room.type.uppercase()} • ${room.building} • Floor ${room.floor}"
+                            )
+                            if (room.description.isNotBlank()) {
+                                Text(
+                                    text = room.description,
+                                    style = MaterialTheme.typography.bodySmall,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    modifier = Modifier.padding(top = 4.dp)
+                                )
+                            }
+                        }
                     },
                     modifier = Modifier.clickable {
                         if (selectionMode == SelectionMode.DESTINATION) {
